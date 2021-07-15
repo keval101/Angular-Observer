@@ -6,7 +6,9 @@
       <li class="nav-item"> <a [routerLink] = '["user", 2] 'class="nav-link"> User 2 </a> </li>
     </ul>
   </nav>
-
+  <hr>
+    <p *ngIf = "userActivate">User is Activated !</p>
+  <hr>
   <router-outlet></router-outlet>
 </div>
 
